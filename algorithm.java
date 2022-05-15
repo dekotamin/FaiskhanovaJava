@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class algoritm {
+public class algorithm {
 
     public static void main(String[] args) {
 
