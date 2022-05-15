@@ -8,7 +8,9 @@ public class algorithm {
         System.out.print("Input a number: ");
         int num = in.nextInt();
         if (num > 7) {
-            System.out.printf("Привет!");
+            System.out.print("Привет!");
+        } else {
+            System.out.print(num);
             in.close();
         }
     }

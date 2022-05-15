@@ -11,7 +11,7 @@ public class Name {
         if (Objects.equals(num, "Вячеслав")) {
             System.out.printf("Привет, Вячеслав!");
         } else {
-                System.out.printf("Нет такого имени!");
+                System.out.printf("Нет такого имени!" + num);
             in.close();
         }
     }
