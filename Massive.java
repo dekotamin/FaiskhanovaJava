@@ -12,11 +12,7 @@ public class Massive {
             array[i] = input.nextInt();
         }
         for (int i = 0; i < size; i++) {
-            if (array[i] % 3 != 0) {
-                System.out.print("Чисел кратных 3 нет!" + array[i]);
-            } else {
-                System.out.print("Числа кратные 3" + array[i]);
-            }
+            if (array[i] % 3 == 0) System.out.print(" Числа кратные 3: " + array[i]);
         }
     }
 }
